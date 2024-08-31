@@ -1,0 +1,80 @@
+.main-content {
+    padding: 20px;
+    background-color: wheat;
+    color: #2d3748;
+    width: 100%;
+  }
+  
+  .block-ai-tools {
+    margin-bottom: 20px;
+    display: flex;
+    grid-template-columns: repeat(2, 5fr);
+    
+  }
+  
+  .block-ai-tools h3 {
+    font-size: 20px;
+  }
+  
+  .block-btn, .blocked-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    padding-top: 10px;
+  }
+  
+  .actions {
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
+    gap: 20px;
+
+  }
+  
+  .action-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    height: 200px;
+    text-align: center;
+  }
+  
+  .ani{
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+    width: 1000px;
+  }
+  .btoon{
+    display: flex;
+    background-color: white;
+  }
+  .pic1{
+    padding: 40px;
+  }
+  .pic2{
+    padding: 30px;
+    
+  }
+
+  .pic3{
+    padding: 40px;
+  }
+
+  .pic4{
+    padding: 40px;
+
+  }
+
+.pic5{
+    padding: 40px;
+}
+
+.pic6{
+    padding: 50px;
+}

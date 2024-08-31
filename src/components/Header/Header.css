@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background-color: gray; 
+    color: white;
+    align-items: center;
+  }
+  
+  .header-left {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  .header-right {
+    display: flex;
+    justify-content: space-between; 
+    /* width: 15%; */
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .upgrade-btn, .view-options-btn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .user-profile {
+    /* background-color: skyblue; */
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+  .minus-cross{
+    display: flex;
+    /* justify-content: space-between; */
+    height: -80px;
+    width: 30px;
+    gap: 20px;
+    margin-right: 8px;
+   
+  }
+  .header-middle{
+    border-radius: 16px;
+    padding-right: 10px;
+  }
+
+  .icon{
+    text-align: center;
+  }
+  .img-logo1{
+    width: 50px;
+    border-radius: 50%;
+    height: 40px;
+
+  }
+  .img-logo2{
+    width: 100px;
+    border-radius: ;
+    height: 25px;
+    background: gray;
+  }
+  .user{
+    width: 25px;
+    height: 25px;
+  }
