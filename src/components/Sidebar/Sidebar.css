@@ -74,4 +74,33 @@
     flex-direction: column;
     /* justify-content: center; */
   }
+
+  /* Responsive Media Queries */
+@media (max-width: 768px) {
+    .sidebar {
+      padding: 15px;
+      gap: 30px;
+    }
+  
+    .upperbar, .belowbar {
+      gap: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sidebar {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 10px;
+    }
+  
+    .upperbar, .belowbar {
+      flex-direction: row;
+      gap: 10px;
+    }
+  
+    .sidebar img {
+      width: 40px;
+    }
+  }
   

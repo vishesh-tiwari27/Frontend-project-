@@ -78,3 +78,36 @@
 .pic6{
     padding: 50px;
 }
+
+/* Responsive Media Queries */
+@media (max-width: 1024px) {
+    .actions {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .actions {
+      grid-template-columns: 1fr;
+    }
+  
+    .block-ai-tools {
+      flex-direction: column;
+    }
+  
+    .block-btn, .blocked-btn {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .block-ai-tools h3 {
+      font-size: 18px;
+    }
+  
+    .block-btn, .blocked-btn {
+      padding: 6px 10px;
+      height: 40px;
+    }
+  }
